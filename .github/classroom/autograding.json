@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Sample 1",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "5",
+      "output": "Please enter a positive integer:\r\nfive",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Sample 2",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "11",
+      "output": "Please enter a positive integer:\r\nnot in the range",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    }
+  ]
+}
